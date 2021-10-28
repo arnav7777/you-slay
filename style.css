@@ -1,0 +1,247 @@
+*
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+
+body {
+
+margin: 0px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#header .navbar{
+
+    background-color: lavenderblush;
+    overflow:unset;
+    padding: 5px;
+    margin-bottom: 0%;
+    
+    
+}
+
+#header .navbar-nav .nav-item .nav-link{
+
+    color:rebeccapurple;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 15px;
+}
+
+#header .navbar-nav .nav-item:hover,
+#header .navbar-nav .nav-item.active{
+
+    border-top: purple solid 4px; 
+}
+
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+#header .dropdown-item{
+    color: rebeccapurple;
+    
+    overflow: unset;
+    border: none;
+    border-radius: 2px;
+    transition: all 300ms ease-in-out;
+}
+#header .dropdown-item:hover{
+    color:white;
+    background-color:rebeccapurple;
+    border-radius: 2px;
+}
+#header .dropdown-menu{
+    background-color: lavenderblush;
+    border: none;
+    
+}
+
+
+/*home css*/
+
+.home .home-banner-1,
+.home .home-banner-2{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    position: relative;
+    min-height: 650px;
+    margin:0%;
+    
+}
+
+.home .home-banner-1{
+    
+    background-image: url(../images/cloth\ slider\ 2.jpg);
+
+}
+.home .home-banner-2{
+    background-image: url(../images/Yellow-Aesthetic-iPhone-Wallpapers.jpg);
+}
+
+.home .home-banner-1 .home-banner-text{
+    text-align: center;
+    transform: translate(0,400%);
+    color:white;
+    font-weight: bolder;
+    
+    
+}
+.home .home-banner-1 .btn{
+    background-color: purple;
+    color: white;
+    
+}
+.home .home-banner-2 .home-banner-text{
+    text-align: center;
+    transform: translate(0,550%);
+    color:black;
+    font-weight: bolder;
+    
+    
+}
+.home .home-banner-2 .btn{
+    background-color: black;
+    color: white;
+    
+}
+
+/*product css*/
+
+.products
+{
+    padding-top: 8rem;
+    background-color: lavender;
+}
+.products a{
+   
+    background-color:whitesmoke;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    
+    
+
+}
+.products a img{
+     width: 100%;
+     height: 100%;
+     opacity: 75%;
+}
+
+.products a img:hover{
+    opacity: 100%;
+    transition: all 500ms ease-in-out;
+}
+
+.products button{
+
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: purple;
+    padding: 8px;
+}
+.products button:hover{
+
+    background-color: purple;
+    color: white;
+
+}
+.product-list .product-name h3{
+    color: purple;
+    text-decoration:none;
+    font-weight: lighter;
+}
+.product-list .product-name h3:hover{
+   font-weight:normal;
+}
+
+.product-list .product-name p{
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+
+
+}
+.product-list .product-name p del{
+    color: red;
+    opacity: 50%;
+
+}
+.product-list .product-name .ti-star.active{
+
+    color: yellow;
+
+}
+.product-list .product-name .ti-star{
+    color: tomato;
+}
+
+/*testimonials
+
+.testimonials .card{
+    
+    margin: 20px;
+    padding: 12px;
+    box-shadow: lightgrey 2px 1px;
+
+
+}
+.testimonials h2{
+
+    padding: 12px;
+    color: black;
+    margin-top: 50px;
+    font-weight: lighter;
+    
+}
+
+.testimonials .card img{
+
+    border: none;
+    border-radius: 200px;
+    padding:12px;
+}
+.testimonials .card h4{
+
+    font-weight: lighter;
+    font-size: 20px;
+    
+}
+
+
+/*footer
+
+
+.footer .links ul li a{
+    
+    color: purple;
+    text-decoration: none;
+    padding: 5px;
+}
+.footer .links ul li a:hover{
+    color: wheat;
+}
+*/
+
+
+
+
+
+
+
+
+    
+
+
+
